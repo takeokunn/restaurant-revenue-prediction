@@ -13,6 +13,9 @@ convert:
 .PHONY: download
 download:
 	kaggle competitions download -p assets -c restaurant-revenue-prediction
+	unzip -d assets/ assets/restaurant-revenue-prediction.zip
+	unzip -d assest/ assets/test.csv.zip
+	unzip -d assest/ assets/train.csv.zip
 
 .PHONY: submit
 submit:
