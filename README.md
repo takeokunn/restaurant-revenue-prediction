@@ -6,8 +6,11 @@ url: [Restaurant Revenue Prediction](https://www.kaggle.com/c/restaurant-revenue
 
 ```shell
 # for jupyter notebook
-$ docker-compose up notebook
+$ make notebook
 
-# for python
-$ docker-compose run --rm script
+# for python script
+$ make script
+
+# for convert jupyter notebook
+$ make convert
 ```

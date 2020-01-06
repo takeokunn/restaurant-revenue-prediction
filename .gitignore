@@ -1,4 +1,8 @@
 /assets/*
 !/assets/.gitkeep
 
+/output/*
+!/output/.gitkeep
+
+/src/notebook.py
 /jupyter/.ipynb_checkpoints
