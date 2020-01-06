@@ -14,9 +14,9 @@ convert:
 download:
 	kaggle competitions download -p assets -c restaurant-revenue-prediction
 	unzip -d assets/ assets/restaurant-revenue-prediction.zip
-	unzip -d assest/ assets/test.csv.zip
-	unzip -d assest/ assets/train.csv.zip
+	unzip -d assets/ assets/test.csv.zip
+	unzip -d assets/ assets/train.csv.zip
 
 .PHONY: submit
 submit:
-	kaggle competitions submit -c restaurant-revenue-prediction -f output/submission.csv
+	kaggle competitions submit -c restaurant-revenue-prediction -f output/submission.csv -m "Submit!"

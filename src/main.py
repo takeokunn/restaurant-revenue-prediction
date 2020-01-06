@@ -36,4 +36,4 @@ rf.fit(df_train[df_train_columns], revenue)
 prediction = rf.predict(df_test[df_train_columns])
 
 submission = pd.DataFrame({"Id":df_test.Id, "Prediction":prediction})
-submission.to_csv("./output/submit.csv", index=False)
+submission.to_csv("./output/submission.csv", index=False)
