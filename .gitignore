@@ -1,4 +1,4 @@
-assets/
-!assets/.gitkeep
+/assets/*
+!/assets/.gitkeep
 
-jupyter/.ipynb_checkpoints
+/jupyter/.ipynb_checkpoints
